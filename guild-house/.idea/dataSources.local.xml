@@ -11,7 +11,11 @@
       <user-name>nestapi</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="@" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="information_schema" />
+            <name qname="kakaobot" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>
